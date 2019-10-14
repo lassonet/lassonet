@@ -1,0 +1,27 @@
+NUM_GPUS: 2
+BATCH_SIZE: 32
+DATASET:
+ SPACE: 0
+ NUM_POINTS: 2048
+ CLOSER: 2
+ TRAIN_FILES: ['full_cam_d1_a1.h5',
+               'full_cam_d1_a2.h5',
+               'full_cam_d1_a3.h5',
+               'full_cam_d1_a4.h5',
+               'full_cam_d1_a5.h5',
+               'full_cam_d1_a6.h5',
+               'full_cam_d1_a7.h5',
+               'full_cam_d1_a8.h5',
+               'full_cam_d1_a9.h5',
+               'full_cam_d1_a11.h5',
+               'full_cam_d1_a12.h5',
+               'full_cam_d1_a13.h5',
+               'full_cam_d1_a14.h5',
+               'full_cam_d1_a16.h5']
+MODEL:
+ MODEL_TYPE: 'pn'
+ USE_T_NET: False
+LOSS:
+ CLS_WEIGHTS: [1.0, 1.0]
+OPTIMIZER:
+ DECAY_STEP: 200000

@@ -1,0 +1,19 @@
+NUM_GPUS: 2
+BATCH_SIZE: 16
+DATASET:
+  SPACE: 1
+  OCCLUDE_R: 0.0
+  NUM_POINTS: 20480
+  TRAIN_FILES: [
+      'full_cam_d2_a1.h5',
+      'full_cam_d2_a2.h5',
+      'full_cam_d2_a3.h5',
+      'full_cam_d2_a4.h5',
+      'full_cam_d2_a5.h5',
+      'full_cam_d2_a6.h5'
+  ]
+MODEL:
+  MAX_NUM_GROUPS: 4096
+  GROUP_SIZE: 32
+LOSS:
+  CLS_WEIGHTS: [1.0, 4.0]
