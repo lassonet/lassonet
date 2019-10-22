@@ -5,13 +5,13 @@ If you find our work useful in your research, please consider citing:
 
 ```
 @article{chen2019b,
-        title={LassoNet: Deep Lasso-Selection of 3D Point Clouds},
-        author={Chen, Zhutian and Zeng, Wei and Yang, Zhiguang and Yu, Lingyun and Fu, Chi-Wing and Qu, Huamin},
-        journal = {{IEEE Transactions on Visualization and Computer Graphics}},
-        year    = {2019}, 
-        volume  = {}, 
-        number  = {}, 
-        pages   = {1-1}
+  title={LassoNet: Deep Lasso-Selection of 3D Point Clouds},
+  author={Chen, Zhutian and Zeng, Wei and Yang, Zhiguang and Yu, Lingyun and Fu, Chi-Wing and Qu, Huamin},
+  journal = {{IEEE Transactions on Visualization and Computer Graphics}},
+  year    = {2019}, 
+  volume  = {}, 
+  number  = {}, 
+  pages   = {1-1}
 }
 ```
 
