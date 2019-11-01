@@ -16,7 +16,9 @@ If you find our work useful in your research, please consider citing:
 ```
 
 ### Introduction
-This work is based on our VIS'19 paper.
+This project, based on our IEEE VIS'19 paper, aims at learning a latent mapping from viewpoint and lasso to point cloud regions using a deep learning model. This project is builted based on [pointnet](https://github.com/charlesq34/pointnet) / [pointnet++](https://github.com/charlesq34/pointnet2). You can also check our [project webpage](https://lassonet.github.io/) for more details.
+
+In this repository, we release code and data for training the deep learning model in our method.
 
 ### Installation
 
@@ -33,6 +35,11 @@ TF_INC=$(python -c 'import tensorflow as tf; print(tf.sysconfig.get_include())')
 TF_LIB=$(python -c 'import tensorflow as tf; print(tf.sysconfig.get_lib())')
 ```
 Then, add flags of `-I$TF_INC/external/nsync/public -L$TF_LIB -ltensorflow_framework` to the `g++` commands.
+
+### Dataset
+The selection datasets on ShapeNet: [d1](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zchenbn_connect_ust_hk/EbA6lKsGIJ9OnXpcosV3TnEBzH84-AKzGimMGPEmVuIiRA?e=fFatzD).
+The selection datasets on S3DIS: [d2](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zchenbn_connect_ust_hk/EU34qjiMZRdPmPgy5U7OICYB_wmcNfj1VVBET6ZEOELidA?e=o1tFnr).
+Please unarchive and put all the files in the `data` folder.
 
 ### Usage
 
